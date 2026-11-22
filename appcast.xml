@@ -5,26 +5,37 @@
         <description>Today release feed</description>
         <language>en</language>
         <item>
-            <title>Version 1.1.2</title>
-            <pubDate>Sun, 22 Nov 2026 11:27:32 +0000</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <title>Version 1.2.0</title>
+            <pubDate>Sun, 22 Nov 2026 17:29:23 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif; font-size: 13px; line-height: 1.45; color: #1b1b1b; margin: 4px 0;">
 <h3>What&#x27;s new</h3>
 <ul>
-<li>Calendar: dragging events is rebuilt. The dragged event stays fixed while a clean preview follows the pointer; scrolling pauses during the drag, and resizing the top or bottom edge is smooth and predictable.</li>
-<li>Calendar: moving events across days, 15-minute snapping and read-only calendar behaviour all remain intact.</li>
-<li>Documentation: the repository now contains a complete guide set (features, menus and shortcuts, development, testing, data model, integrations, troubleshooting, limitations, releases).</li>
-<li>Updates: Sparkle’s sandboxed installer configuration is included, so automatic updates work from this build onward.</li>
+<li>Window: a standard Mac sidebar, toolbar and inspector. The window no longer forces its size, and it remembers the page and panels you had open.</li>
+<li>Settings: now a separate Settings window (⌘,) with tabs for General, Calendars, Capture, AI, Integrations, Data and Advanced.</li>
+<li>Today: overdue tasks appear at the top with &quot;Move all to today&quot;, and the day&#x27;s schedule sits beside your task list.</li>
+<li>Calendar: tasks with a time appear on the timeline and can be dragged and resized. Drag from the new Unscheduled strip to time-block a task. Overlapping items sit side by side.</li>
+<li>Tasks: opening a task no longer jumps you to the Tasks page. Arrow keys, Space, Delete and Return work in task lists.</li>
+<li>Undo: ⌘Z undoes your last planner actions, including edits, rescheduling and event moves.</li>
+<li>Notes: the editor now types like an editor. Return, Backspace and arrow keys work across blocks, the / and @ menus filter as you type, and printing produces a formatted page. Notes can be starred.</li>
+<li>Capture: the launcher, quick add, quick capture and menu-bar field all understand the same #tag, @date and &amp;folder tokens.</li>
+<li>Habits: a habit now shows as done only on the day you tick it.</li>
+<li>Fixed: opening a &quot;this week&quot;, &quot;this month&quot; or Someday task no longer moves it to the Inbox.</li>
+<li>Fixed: editing or dragging one occurrence of a repeating event no longer affects the wrong occurrence, and saving an event keeps its alerts and location.</li>
+<li>Fixed: the ⌥Space launcher shortcut now opens the launcher.</li>
+<li>Safer: restoring a backup asks first and takes a safety backup. Emptying the Trash asks for confirmation. Sync no longer brings back tasks you deleted.</li>
+<li>Changed: the Events page is removed (Upcoming shows the same events). &quot;Proactive insights&quot; is off unless you turn it on. Cloud AI keys are stored per provider, so you may be asked for your key again.</li>
+<li>Readability: no text smaller than 11pt, better contrast, and times follow your 12/24-hour setting.</li>
 </ul>
 </div>
 ]]></description>
-            <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.1.2/Today-1.1.2.dmg"
-                       length="9227492"
+            <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.2.0/Today-1.2.0.dmg"
+                       length="8833131"
                        type="application/x-apple-diskimage"
-                       sparkle:edSignature="AjbEEwbtoept80eG3LEQrF8q7TKPG4wCROCBNaykK5pNEqS2pzqVpcBLDjj0jNXNCYnFMdG2bIqc+E2CQgOvDg==" />
+                       sparkle:edSignature="pSp4lNk3rDh95reMZirJSIVDBMv3x0wxWafadzBpTYnLRLXztOVycgayku9I4UUxe+oPyD0hlvOa6so/KYNyBg==" />
         </item>
     </channel>
 </rss>
