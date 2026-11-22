@@ -5,31 +5,27 @@
         <description>Today release feed</description>
         <language>en</language>
         <item>
-            <title>Version 1.2.1</title>
-            <pubDate>Sun, 22 Nov 2026 21:04:50 +0000</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <title>Version 1.2.2</title>
+            <pubDate>Sun, 22 Nov 2026 22:59:18 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif; font-size: 13px; line-height: 1.45; color: #1b1b1b; margin: 4px 0;">
 <h3>What&#x27;s new</h3>
 <ul>
-<li>Calendar: fixed moving and resizing. Drag the middle of an event to move it without changing its length; drag the top edge to change only the start, or the bottom edge to change only the end.</li>
-<li>Calendar: double-click an event to edit it. Right-click an event for Get Info, Edit, Join Meeting, Calendar, Cut, Copy, Paste, Duplicate, Star, Convert to, Email Event and Delete.</li>
-<li>Calendar: drag on empty space to draw a new event, or double-click empty space for a one-hour event. Right-click empty space for New Event, New Task Here and Paste Event.</li>
-<li>Calendar: with an event selected, Delete removes it, Return edits it, ⌘D duplicates it, and ⌘C, ⌘X and ⌘V copy, cut and paste. ⌘Z undoes moves, edits, new events and deletions.</li>
-<li>Calendar: Option-drag copies an event to a new time, and Escape cancels a drag.</li>
-<li>Calendar: repeating events ask whether to change only this event or all future events.</li>
-<li>Calendar: the event editor now has Repeat and Alert.</li>
-<li>Calendar: in the month view, double-click a day to add an event and drag an event to another day to move it.</li>
-<li>Calendar: taller events show their location or meeting link, and the selected event is highlighted.</li>
+<li>iCloud sync: fixed &quot;iCloud sync could not start (SwiftDataError error 1)&quot;. Today is now signed for iCloud, and a problem in how notes link to calendar events that iCloud could not accept is fixed. Your existing planner opens unchanged.</li>
+<li>iCloud sync: if iCloud cannot start, Settings now explains why in plain words.</li>
+<li>Reminders: your Apple Reminders now appear in Today, Upcoming and the calendar, alongside your events. Tick them off, drag them to another day or time, edit them, or create new ones; changes go straight back to the Reminders app.</li>
+<li>Reminders: show or hide each reminder list from the Calendars button or Settings ▸ Calendars, just like calendars.</li>
+<li>Reminders that mirror a Today task are not shown twice, and reminders in shared read-only lists can&#x27;t be changed by accident.</li>
 </ul>
 </div>
 ]]></description>
-            <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.2.1/Today-1.2.1.dmg"
-                       length="9022458"
+            <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.2.2/Today-1.2.2.dmg"
+                       length="9385242"
                        type="application/x-apple-diskimage"
-                       sparkle:edSignature="NclrYYn/e1a86k4AnXV7thBpUMHVmWzvtDikH2d0As12SVUYqE0GhTw2hBmAFdjeZ6mRiefAj+JOu7pMc2S6DA==" />
+                       sparkle:edSignature="hcg3J4sKGiiYIa9XflKL1kowjjHa5RIiUqQ7/H7EaDHDouWMiZz1Qyfxl7k6TdJ78jKJIa5REMAJhnGpc0gqCA==" />
         </item>
     </channel>
 </rss>
