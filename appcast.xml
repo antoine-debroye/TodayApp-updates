@@ -5,37 +5,31 @@
         <description>Today release feed</description>
         <language>en</language>
         <item>
-            <title>Version 1.2.0</title>
-            <pubDate>Sun, 22 Nov 2026 17:29:23 +0000</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <title>Version 1.2.1</title>
+            <pubDate>Sun, 22 Nov 2026 21:04:50 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
 <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif; font-size: 13px; line-height: 1.45; color: #1b1b1b; margin: 4px 0;">
 <h3>What&#x27;s new</h3>
 <ul>
-<li>Window: a standard Mac sidebar, toolbar and inspector. The window no longer forces its size, and it remembers the page and panels you had open.</li>
-<li>Settings: now a separate Settings window (⌘,) with tabs for General, Calendars, Capture, AI, Integrations, Data and Advanced.</li>
-<li>Today: overdue tasks appear at the top with &quot;Move all to today&quot;, and the day&#x27;s schedule sits beside your task list.</li>
-<li>Calendar: tasks with a time appear on the timeline and can be dragged and resized. Drag from the new Unscheduled strip to time-block a task. Overlapping items sit side by side.</li>
-<li>Tasks: opening a task no longer jumps you to the Tasks page. Arrow keys, Space, Delete and Return work in task lists.</li>
-<li>Undo: ⌘Z undoes your last planner actions, including edits, rescheduling and event moves.</li>
-<li>Notes: the editor now types like an editor. Return, Backspace and arrow keys work across blocks, the / and @ menus filter as you type, and printing produces a formatted page. Notes can be starred.</li>
-<li>Capture: the launcher, quick add, quick capture and menu-bar field all understand the same #tag, @date and &amp;folder tokens.</li>
-<li>Habits: a habit now shows as done only on the day you tick it.</li>
-<li>Fixed: opening a &quot;this week&quot;, &quot;this month&quot; or Someday task no longer moves it to the Inbox.</li>
-<li>Fixed: editing or dragging one occurrence of a repeating event no longer affects the wrong occurrence, and saving an event keeps its alerts and location.</li>
-<li>Fixed: the ⌥Space launcher shortcut now opens the launcher.</li>
-<li>Safer: restoring a backup asks first and takes a safety backup. Emptying the Trash asks for confirmation. Sync no longer brings back tasks you deleted.</li>
-<li>Changed: the Events page is removed (Upcoming shows the same events). &quot;Proactive insights&quot; is off unless you turn it on. Cloud AI keys are stored per provider, so you may be asked for your key again.</li>
-<li>Readability: no text smaller than 11pt, better contrast, and times follow your 12/24-hour setting.</li>
+<li>Calendar: fixed moving and resizing. Drag the middle of an event to move it without changing its length; drag the top edge to change only the start, or the bottom edge to change only the end.</li>
+<li>Calendar: double-click an event to edit it. Right-click an event for Get Info, Edit, Join Meeting, Calendar, Cut, Copy, Paste, Duplicate, Star, Convert to, Email Event and Delete.</li>
+<li>Calendar: drag on empty space to draw a new event, or double-click empty space for a one-hour event. Right-click empty space for New Event, New Task Here and Paste Event.</li>
+<li>Calendar: with an event selected, Delete removes it, Return edits it, ⌘D duplicates it, and ⌘C, ⌘X and ⌘V copy, cut and paste. ⌘Z undoes moves, edits, new events and deletions.</li>
+<li>Calendar: Option-drag copies an event to a new time, and Escape cancels a drag.</li>
+<li>Calendar: repeating events ask whether to change only this event or all future events.</li>
+<li>Calendar: the event editor now has Repeat and Alert.</li>
+<li>Calendar: in the month view, double-click a day to add an event and drag an event to another day to move it.</li>
+<li>Calendar: taller events show their location or meeting link, and the selected event is highlighted.</li>
 </ul>
 </div>
 ]]></description>
-            <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.2.0/Today-1.2.0.dmg"
-                       length="8833131"
+            <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.2.1/Today-1.2.1.dmg"
+                       length="9022458"
                        type="application/x-apple-diskimage"
-                       sparkle:edSignature="pSp4lNk3rDh95reMZirJSIVDBMv3x0wxWafadzBpTYnLRLXztOVycgayku9I4UUxe+oPyD0hlvOa6so/KYNyBg==" />
+                       sparkle:edSignature="NclrYYn/e1a86k4AnXV7thBpUMHVmWzvtDikH2d0As12SVUYqE0GhTw2hBmAFdjeZ6mRiefAj+JOu7pMc2S6DA==" />
         </item>
     </channel>
 </rss>
