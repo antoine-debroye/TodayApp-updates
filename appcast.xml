@@ -5,16 +5,16 @@
         <description>Today release feed</description>
         <language>en</language>
         <item>
-            <title>Version 1.1.0</title>
-            <pubDate>Sat, 21 Nov 2026 23:31:00 +0000</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <title>Version 1.1.1</title>
+            <pubDate>Sun, 22 Nov 2026 10:30:48 +0000</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://github.com/antoine-debroye/TodayApp-updates/releases/tag/v1.1.0</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.1.0/Today-1.1.0.dmg"
-                       length="9175102"
+            <sparkle:releaseNotesLink>https://github.com/antoine-debroye/TodayApp-updates/releases/tag/v1.1.1</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.1.1/Today-1.1.1.dmg"
+                       length="9222206"
                        type="application/x-apple-diskimage"
-                       sparkle:edSignature="Ha7I3Fw6RQIsG4slFbVsNJTH2w3BwHo/VT7prI/vuF0UbhopzZisF37UEJ+N7OWU/aBFp5L8NtzMTgE452fxAw==" />
+                       sparkle:edSignature="f5Kij1ZchT86Zp1azXcFebatpOhyMc3dpE482eoKUpYUa078j4ILwJywWu6Djuxf5TjdZOMViErPImd4kEXlCw==" />
         </item>
     </channel>
 </rss>
