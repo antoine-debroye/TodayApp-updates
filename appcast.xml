@@ -6,11 +6,24 @@
         <language>en</language>
         <item>
             <title>Version 1.1.1</title>
-            <pubDate>Sun, 22 Nov 2026 10:47:29 +0000</pubDate>
+            <pubDate>Sun, 22 Nov 2026 10:58:22 +0000</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://github.com/antoine-debroye/TodayApp-updates/releases/tag/v1.1.1</sparkle:releaseNotesLink>
+            <description><![CDATA[
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif; font-size: 13px; line-height: 1.45; color: #1b1b1b; margin: 4px 0;">
+<h3>What&#x27;s new</h3>
+<ul>
+<li>Calendar: a proper list grouped by account, with colour checkboxes, “Show only this calendar”, and a collapse button that hands the space back to the calendar.</li>
+<li>Calendar: drag an event to move it (including to another day) and drag its top or bottom edge to change the start or end time. Snaps to 15 minutes.</li>
+<li>Launcher: type “&gt;” for commands (go, create, ask, toggle) and press Tab for quick actions.</li>
+<li>Menus: new File, Go and View menus, task-layout and calendar-view switching, and Find in Planner.</li>
+<li>Shortcuts: create notes (⌘⌥N), events (⌘⌥E), toggle sidebar (⌘⌥S), inspector (⌘⌥I), calendar list (⌘⌥C), and find (⌘F). All rebindable in Settings.</li>
+<li>AI: ask about any task, note or event from its menu, with a richer set of suggested questions.</li>
+<li>Performance: faster calendar and lists through per-day caches, cached counts and backlinks, and lazy rendering.</li>
+</ul>
+</div>
+]]></description>
             <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.1.1/Today-1.1.1.dmg"
                        length="9223324"
                        type="application/x-apple-diskimage"
