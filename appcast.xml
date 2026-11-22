@@ -6,15 +6,15 @@
         <language>en</language>
         <item>
             <title>Version 1.1.1</title>
-            <pubDate>Sun, 22 Nov 2026 10:30:48 +0000</pubDate>
+            <pubDate>Sun, 22 Nov 2026 10:47:29 +0000</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:releaseNotesLink>https://github.com/antoine-debroye/TodayApp-updates/releases/tag/v1.1.1</sparkle:releaseNotesLink>
             <enclosure url="https://github.com/antoine-debroye/TodayApp-updates/releases/download/v1.1.1/Today-1.1.1.dmg"
-                       length="9222206"
+                       length="9223324"
                        type="application/x-apple-diskimage"
-                       sparkle:edSignature="f5Kij1ZchT86Zp1azXcFebatpOhyMc3dpE482eoKUpYUa078j4ILwJywWu6Djuxf5TjdZOMViErPImd4kEXlCw==" />
+                       sparkle:edSignature="TcQlytBh+q8oFOR/OAXUzXFOLvs1Z+g/hNxjHzf5M8bMiONvwFLSo9WB5tf8usUlS9bkuPovWIawwMVuBK/tBg==" />
         </item>
     </channel>
 </rss>
